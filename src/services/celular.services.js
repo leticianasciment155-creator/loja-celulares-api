@@ -1,3 +1,5 @@
+import { Pool } from "pg"
+
 class CelularService {
     async getAll() {
         const res = await pool.query("SELECT * FROM celulares")

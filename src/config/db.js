@@ -1,5 +1,3 @@
-import express from "express";
-import celularRoutes from "../src/routes/celular.routes.js"
-
-
-app.
+import { Pool } from "pg"
+import "dotenv/config"
+export const pool = new Pool ()
