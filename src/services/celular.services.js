@@ -1,4 +1,5 @@
-import { Pool } from "pg"
+import { pool } from "../config/db.js"
+export const celularServices = CelularService
 
 class CelularService {
     async getAll() {
